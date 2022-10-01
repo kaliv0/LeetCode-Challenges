@@ -16,10 +16,13 @@ func main() {
 	//var arr2 = [...]int{1, 2, 3, 4}
 	var arr3 = [...]int{1, 1, 1, 3, 3, 4, 3, 2, 4, 2}
 
-	//loop through the given array and put each new number in a set
-	//check if the set already contains the number - if through break out of the loop and return True
+	/*
+		loop through the given array and put each new number in a set
+		check if the set already contains the number - if through break out of the loop and return True
 
-	//One reason  Go doesn't support sets as data structures is that it is easy to create a set from map
+		One reason  Go doesn't support sets as data structures is that
+		it is easy to create a set from map
+	*/
 	var flag = false
 	var nums = make(map[int]bool)
 
