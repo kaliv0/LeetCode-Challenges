@@ -27,6 +27,7 @@ func main() {
 	}
 
 	//sort array by checking which concatenated strings form larger result
+	//e.g. 3 + 30 vs 30 + 3
 	sort.Slice(sNums, func(i int, j int) bool {
 		return sNums[i]+sNums[j] > sNums[j]+sNums[i]
 	})

@@ -37,6 +37,6 @@ func main() {
 		result[j] *= mult
 		mult *= nums[j]
 	}
-	
+
 	fmt.Print(result)
 }
