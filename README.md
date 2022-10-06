@@ -1,1 +1,1 @@
-# LeetCode-Challenges-in-Go
+# LeetCode-Challenges
