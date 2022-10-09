@@ -41,7 +41,7 @@ public class SubarraySumEqualsK {
             Use "accumulator" variable (as in a reduce function) to sum all numbers.
             Track every state of the accumulator as a key in a hashmap
             and keep count of how many times that state is encountered
-            (could be multiple times due to zeros negative numbers and zeros).
+            (could be multiple times due to negative numbers and zeros).
             If the current state minus k gives us a key that is present in the map
             this means that from the past state up to the present one has been accumulated a sum equal to k-
             therefore increment the counter with the value associated with that key.
